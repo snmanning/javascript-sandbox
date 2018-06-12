@@ -1,16 +1,11 @@
 
-//sub test cases
-console.log('sub(3, 4) should be -1', sub(3, 4));
-console.log('sub(10, 4) should be 6', sub(10, 4));
-
-
 /*function concat(a, b) {
 //    return a + b;
 // BELOW IS AN ALTERNATIVE TO THE ABOVE
 //}
 */
 const concat = function(a, b) {
-    return a + b;
+    return a + " " + b;
 };
 
 
@@ -59,7 +54,7 @@ const length = function(word) {
 //}
 */
 const triple = function(a, b, c) {
-    return a * a + b * b = c * c;
+    return a * a + b * b == c * c;
 };
 
 /**
@@ -67,9 +62,13 @@ const triple = function(a, b, c) {
  * @param y second number
  * @return difference of x and y (x - y)
  */
-function sub(x,  y) {
-        return x - y;
-}
+/*function sub(x,  y) {
+//        return x - y;
+//}
+*/
+const sub = function(x, y) {
+    return x - y;
+};
 
 const result = concat("Yay", "woooooo!!!");
 console.log(result);
@@ -95,3 +94,7 @@ console.log(crazyWord);
 
 console.log("Is 3, 4, 5, a triple?", triple(3, 4, 5));
 console.log("Is 5, 9, 16 a triple?", triple(5, 9, 16));
+
+//sub test cases
+console.log('sub(3, 4) should be -1', sub(3, 4));
+console.log('sub(10, 4) should be 6', sub(10, 4));
