@@ -1,7 +1,4 @@
 
-console.log(fortyTwo());
-console.log(fortyTwo("cheese"));
-
 const sum = add(7, 3);
 console.log(sum);
 
@@ -22,7 +19,7 @@ console.log('sub(10, 4) should be 6', sub(10, 4));
 /*function concat(a, b) {
 //    return a + b;
 // BELOW IS AN ALTERNATIVE TO THE ABOVE
-}
+//}
 */
 const concat = function(a, b) {
     return a + b;
@@ -31,15 +28,19 @@ const concat = function(a, b) {
 
 /*function multiplyBy3(x) {
 //    return 3 * x;
-}
+//}
 */
 const multiplyBy3 = function(x) {
     return x * 3;
 };
 
-function fortyTwo() {
+/*function fortyTwo() {
+//    return 42;
+//}
+*/
+const fortyTwo = function() {
     return 42;
-}
+};
 
 // add function
 function add(x, y) {
@@ -79,3 +80,6 @@ const product = multiplyBy3(11);
 console.log(product);
 const product2 = multiplyBy3('avocado');
 console.log(product2);
+
+console.log(fortyTwo());
+console.log(fortyTwo("cheese"));
