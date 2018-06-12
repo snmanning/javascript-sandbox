@@ -1,10 +1,4 @@
 
-
-const product = multiplyBy3(11);
-console.log(product);
-const product2 = multiplyBy3('avocado');
-console.log(product2);
-
 console.log(fortyTwo());
 console.log(fortyTwo("cheese"));
 
@@ -27,16 +21,21 @@ console.log('sub(10, 4) should be 6', sub(10, 4));
 
 /*function concat(a, b) {
 //    return a + b;
-// ALTERNATIVE TO THE ABOVE
+// BELOW IS AN ALTERNATIVE TO THE ABOVE
 }
 */
 const concat = function(a, b) {
     return a + b;
 };
 
-function multiplyBy3(x) {
-    return 3 * x;
+
+/*function multiplyBy3(x) {
+//    return 3 * x;
 }
+*/
+const multiplyBy3 = function(x) {
+    return x * 3;
+};
 
 function fortyTwo() {
     return 42;
@@ -75,3 +74,8 @@ const result = concat("Yay", "woooooo!!!");
 console.log(result);
 const result2 = concat(10, 3);
 console.log(result2);
+
+const product = multiplyBy3(11);
+console.log(product);
+const product2 = multiplyBy3('avocado');
+console.log(product2);
