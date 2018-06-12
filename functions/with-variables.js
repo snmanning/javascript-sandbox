@@ -54,7 +54,7 @@ const length = function(word) {
 //}
 */
 const triple = function(a, b, c) {
-    return a * a + b * b == c * c;
+    return a * a + b * b === c * c;
 };
 
 /**
