@@ -1,7 +1,4 @@
 
-const sum = add(7, 3);
-console.log(sum);
-
 const lengthOfCheese = length("cheese");
 console.log(lengthOfCheese);
 
@@ -43,9 +40,13 @@ const fortyTwo = function() {
 };
 
 // add function
-function add(x, y) {
+/*function add(x, y) {
+//    return x + y;
+//}
+*/
+const add = function(x, y) {
     return x + y;
-}
+};
 
 // length function
 function length(word) {
@@ -83,3 +84,6 @@ console.log(product2);
 
 console.log(fortyTwo());
 console.log(fortyTwo("cheese"));
+
+const sum = add(7, 3);
+console.log(sum);
