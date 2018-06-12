@@ -4,16 +4,26 @@
 // BELOW IS AN ALTERNATIVE TO THE ABOVE
 //}
 */
-const concat = function(a, b) {
+/*const concat = function(a, b) {
     return a + " " + b;
 };
+FURTHER ALTERNATIVE USING "FAT" ARROW FUNCTIONS
+*/
+const concat = (a, b) => a + b;
+//in fat arrow functions there is an implicit retun if you have no "{}"
 
 
 /*function multiplyBy3(x) {
 //    return 3 * x;
 //}
 */
-const multiplyBy3 = function(x) {
+
+//REWRITE AS A FUNCTION WITH EXPLICIT RETURN
+/*const multiplyBy3 = function(x) {
+//    return x * 3;
+//};
+*/
+const multiplyBy3 = (x) => {
     return x * 3;
 };
 
@@ -21,18 +31,27 @@ const multiplyBy3 = function(x) {
 //    return 42;
 //}
 */
-const fortyTwo = function() {
-    return 42;
-};
+
+/*const fortyTwo = function() {
+//    return 42;
+//};
+*/
+
+const fortyTwo = () => 42
+
 
 // add function
 /*function add(x, y) {
 //    return x + y;
 //}
 */
-const add = function(x, y) {
-    return x + y;
-};
+//REWRITE ADD FUNCTION WITH FAR ARROW WITH IMPLICIT RETURN
+/*const add = function somethingElse(x, y) {
+//    return x + y;
+//};
+*/
+
+const add = (x, y) => x + y;
 
 // length function
 /*function length(word) {
@@ -69,6 +88,7 @@ const triple = function(a, b, c) {
 const sub = function(x, y) {
     return x - y;
 };
+
 
 const result = concat("Yay", "woooooo!!!");
 console.log(result);
