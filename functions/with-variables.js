@@ -1,13 +1,4 @@
 
-const lengthOfCheese = length("cheese");
-console.log(lengthOfCheese);
-
-const crazyWord = length("supercalifragilisticexpialidocious");
-console.log(crazyWord);
-
-console.log("Is 3, 4, 5, a triple?", triple(3, 4, 5));
-console.log("Is 5, 9, 16 a triple?", triple(5, 9, 16));
-
 //sub test cases
 console.log('sub(3, 4) should be -1', sub(3, 4));
 console.log('sub(10, 4) should be 6', sub(10, 4));
@@ -49,9 +40,13 @@ const add = function(x, y) {
 };
 
 // length function
-function length(word) {
+/*function length(word) {
+//    return word.length;
+//}
+*/
+const length = function(word) {
     return word.length;
-}
+};
 
 /**
  * @param a - number of the small side of a triangle
@@ -59,9 +54,13 @@ function length(word) {
  * @param c - number of the hypotenuse
  * @return boolean true if a^2 + b^2 == c^2
  */
-function triple(a, b, c) {
-    return a * a + b * b == c * c;
-}
+/*function triple(a, b, c) {
+//    return a * a + b * b == c * c;
+//}
+*/
+const triple = function(a, b, c) {
+    return a * a + b * b = c * c;
+};
 
 /**
  * @param x first number
@@ -87,3 +86,12 @@ console.log(fortyTwo("cheese"));
 
 const sum = add(7, 3);
 console.log(sum);
+
+const lengthOfCheese = length("cheese");
+console.log(lengthOfCheese);
+
+const crazyWord = length("supercalifragilisticexpialidocious");
+console.log(crazyWord);
+
+console.log("Is 3, 4, 5, a triple?", triple(3, 4, 5));
+console.log("Is 5, 9, 16 a triple?", triple(5, 9, 16));
