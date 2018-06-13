@@ -1,0 +1,12 @@
+6/13/18
+- [ ] Why did the file have a bunch of "undefined"s at the end of the file?
+- [ ] Why is writing to only one line?
+- [ ] Why do we use `Date` and `date`?
+- [ ] Why did we use `\n` versus `<br>`?
+- [ ] What does `i+=1` mean?
+- [ ] What is that `${}` shenanigans?
+- [ ] Why did we repeat `new Date()`?
+- [ ] Why did we use `let` instead of `const` in the for loop?
+- [ ] What does the vertical pipe mean in the `line` variable?
+- [ ] What is a loop?
+- [ ] What do the `[]` mean?
