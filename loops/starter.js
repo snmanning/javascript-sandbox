@@ -31,3 +31,21 @@ while(x < 11) {
     x += 1; //This is an opinion, a style choice
             //alternative to above x++ or ++x (only works for incriments of 1)
 }
+
+//Exercise: I want to print the numbers 3 - 13 to the screen (one per line) 
+//WITH A FOR LOOP
+for(let i = 3; i < 14; i +=1) {
+    console.log(i);
+}
+
+//WITH A WHILE LOOP
+let s = 3
+while(s < 14) {
+    console.log(s);
+    s += 1;
+}
+
+//Exercise: I want to print every other number starting at 4 and ending at 16 (one per line)
+for(let n = 4; n < 17; n += 2) {
+    console.log(n);
+}
