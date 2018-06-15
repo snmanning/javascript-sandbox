@@ -13,3 +13,16 @@ for(let l = 0; l < letters.length; l += 1) {
     console.log(element);
 }
 
+//some built in methods
+
+//Exercise: I want to print every element of numbers with forEach
+//with an anonymous function
+const result = numbers.forEach(function(element, index){
+    console.log(element);
+})
+console.log(result);
+
+//with a fat arrow
+numbers.forEach((element, index) => {
+    console.log(element);
+});
