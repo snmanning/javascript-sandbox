@@ -9,4 +9,4 @@
 - [x] Why did we use `let` instead of `const` in the for loop?
 - [x] What does the vertical pipe mean in the `line` variable?
 - [ ] What is a loop?
-- [ ] What do the `[]` mean?
+- [x] What do the `[]` mean?
