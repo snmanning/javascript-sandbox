@@ -26,3 +26,15 @@ console.log(result);
 numbers.forEach((element, index) => {
     console.log(element);
 });
+
+//Exercise: I want to double every number in numbers array
+//const doubled = numbers.map((element, index) => {
+//    return 2 * element;
+// });
+const doubled = numbers.map((element, index) => 2 * element);
+console.log(numbers);
+console.log(doubled);
+
+//Exercise: I want to add a period, "." to every element of the letters array
+const withPeriod = letters.map((element, index) => '.' + element);
+console.log(withPeriod);  
